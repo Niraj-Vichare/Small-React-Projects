@@ -15,8 +15,8 @@ Who have not seen the **FAQ widget** in web application? Almost most of us have 
 Yet another intersecting Component of most of the websites ie **Paging System**. So I try to make it but this Paging system in simple one. In this Paging UI i have learnt lot of things like useState Hook, how prop passing is done and also some what of math 😁. 
 
  # TECHNOLOGIES USED  👨‍💻
- Markup : * REACT JS
-          * HTML
-          * CSS
+  *REACT JS
+  *HTML
+  *CSS
  
  
