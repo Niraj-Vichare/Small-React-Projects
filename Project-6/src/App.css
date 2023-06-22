@@ -1,0 +1,119 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+
+.dark{
+  --bg:#000000;
+  --navbg:rgb(7, 7, 83);
+  --body:#000000;
+  --textcolor:#ffff;
+  --hover:rgb(255, 255, 255);
+}
+
+.light{
+  --bg:#ffff;
+  --navbg:rgba(58, 36, 222, 0.989);
+  --body:#ffff;
+  --textcolor:#000000;
+  --hover:rgb(61, 255, 126);
+}
+body{
+  height:100vh;
+  background-color:rgb(19, 12, 43);
+}
+
+nav,li{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--navbg);
+  height: 40px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+nav button,.home-div button{
+  width: 150px;
+  height: 30px;
+  background-color: rgb(16, 10, 30);
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  color: var(--textcolor);
+  background-color: var(--bg);
+}
+
+.para button{
+  margin: 20px;
+  background-color: var(--textcolor);
+  color: var(--bg);
+
+}
+.home-div,.feed-div,.contact-div{
+  width: 900px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  color: var(--textcolor);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,30%);
+  background-color: var(--bg);
+  box-shadow:0px  0px 5px var(--hover);
+}
+h1{
+  font-size: 52px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.divs{
+  display: grid;
+  margin: 20px;
+  background-color: var(--navbg);
+  padding: 10px;
+}
+.feed-div button{
+  margin-left:4%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  height: 30px;
+  border: none;
+  text-align: center;
+
+  background-color: var(--textcolor);
+  width: 90%;
+  border-radius: 5px;
+  color: var(--bg);
+}
+
+.contact-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-div input{
+  margin: 10px;
+  width: 100%;
+  height: 30px;
+  background-color: var(--textcolor);
+  color: var(--bg);
+
+}
+
+.contact-div button{
+  width: 150px;
+  height: 30px;
+  background-color: var(--textcolor);
+  color: var(--bg);
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
