@@ -14,9 +14,16 @@ Who have not seen the **FAQ widget** in web application? Almost most of us have 
  # PROJECT-4 😲
 Yet another intersecting Component of most of the websites ie **Paging System**. So I try to make it but this Paging system in simple one. In this Paging UI i have learnt lot of things like useState Hook, how prop passing is done and also some what of math 😁. 
 
+# PROJECT-5 🔎
+On a website there is lot data available to us but we required some specific data so what we do? Yes a search,hence in project-5 i have develop an optimize **Search Bar** using React Hooks.
+
+# PROJECT-6 🌑🌞
+Which mode do you like dark or light? A cool feature of any website can be toggle between light and dark theme. So in project-6 I have implemented the **Toggle Component**. Also I have created Navbar which help user to toggle between pages. I have learnt concept of useContext, react-router-dom in this project.
+
+
  # TECHNOLOGIES USED  👨‍💻
 * REACT JS
 * HTML
 * CSS
- 
+
  
